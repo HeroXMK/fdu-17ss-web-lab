@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <title>lab05</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <h1 class="text-center">Share Your Travels</h1>
+            <h6 class="text-center font-italic">Let us know where you've been</h6>
+        </div>
+        <nav class="navbar col-md-6">
+            <div class="col-md-4 text-center">
+                <a href="Lab04.html" class="list-group-item-action">Upload</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="#" class="list-group-item-action">Related Photos</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="#" class="list-group-item-action">Reviews</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9">
+                <div class="card">
+                    <section class="card-body">
+                        <h3>New York - Central Park</h3>
+                        <p>Conservatory Pond in Central Park</p>
+                        <a href="images/large-central-park.jpg"> <img class="mx-auto d-block" src="images/central-park.jpg" width="100%" height="100%" alt="central-park"></a>
+                        <p>This photo of Conservatory Pond in <a href="#">
+                            <strong>Central Park</strong></a> in <a href="#"><strong>New York City</strong></a>
+                            was taken on <time>October 22, 2016</time> with a Canon EOS 30D camera.
+                        </p>
+                        <p class="text-right">
+                            <img src="images/icon_download.png">
+                            <img src="images/icon_mail.png">
+                            <img src="images/icon_map.png">
+                            <img src="images/icon_up.png">
+                            <img src="images/icon_down.png">
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="card">
+                    <section class="card-body">
+                        <h3>Related Photos</h3>
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <!-- 指示符 -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                            <!-- 轮播图片 -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="images/related-large1.jpg"><img src="images/related-square1.jpg" width="100%" height="100%" class="mx-auto d-block img-responsive"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="images/related-large2.jpg"><img src="images/related-square2.jpg" width="100%" height="100%" class="mx-auto d-block"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="images/related-large3.jpg" ><img src="images/related-square3.jpg" width="100%" height="100%" class="mx-auto d-block"></a>
+                                </div>
+                            </div>
+                            <!-- 左右切换按钮 -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+
+                        </div>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="card-body">
+                        <h3>Reviews</h3>
+                        <div id="accordion">
+                            <div class="text-center">
+                                <em>Ricardo</em>
+                            </div>
+                            <p class="text-center"><span class="badge badge-info"  data-toggle="collapse" href="#collapseOne"><date>2016-05-23</date></span></p>
+                            <div id="collapseOne" class="collapse text-center">
+                                Easy on the HDR buddy.
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <em>Susan</em>
+                            </div>
+                            <p class="text-center"><span class="badge badge-info"  data-toggle="collapse" href="#collapseTwo"><date>2016-11-18</date></span></p>
+                            <div id="collapseTwo" class="collapse text-center">
+                                I love Central Park.
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center"></div>
+                <div class="col-md-2 text-center"><a href="#">Home</a></div>
+                <div class="col-md-2 text-center"><a href="#">Browse</a></div>
+                <div class="col-md-2 text-center"><a href="#">Search</a></div>
+            </div>
+        </div>
+        <p class="text-center font-italic">Copyright &#169 2017 Share Your Travels</p>
+    </footer>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+</body>
+</html>
