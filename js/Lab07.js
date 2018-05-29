@@ -1,21 +1,21 @@
-let btCommitBox = document.getElementById("btCommitBox");
-let btCommit = document.getElementById("btCommit");
-let select1 = document.getElementById("select1");
-let colNum = document.getElementById("colNum");
-let tableName = document.getElementById("tableName");
-let createTableBox = document.getElementById("createTableBox");
-let tableBox = document.getElementById("tableBox");
-let addRowBox = document.getElementById("addRowBox");
-let deleteRowBox = document.getElementById("deleteRowBox");
-let attributeBox = document.getElementById("attributeBox");
-let warningBox = document.getElementById("warningBox");
+var btCommitBox = document.getElementById("btCommitBox");
+var btCommit = document.getElementById("btCommit");
+var select1 = document.getElementById("select1");
+var colNum = document.getElementById("colNum");
+var tableName = document.getElementById("tableName");
+var createTableBox = document.getElementById("createTableBox");
+var tableBox = document.getElementById("tableBox");
+var addRowBox = document.getElementById("addRowBox");
+var deleteRowBox = document.getElementById("deleteRowBox");
+var attributeBox = document.getElementById("attributeBox");
+var warningBox = document.getElementById("warningBox");
 
-let select2 = document.getElementById("select2");
-let tables = [];
-let numOfTable = 0 ;
-let attributes = [];
-let createRowInput = [];
-let deleteRowInput = [];
+var select2 = document.getElementById("select2");
+var tables = [];
+var numOfTable = 0 ;
+var attributes = [];
+var createRowInput = [];
+var deleteRowInput = [];
 
 select1.onchange = function () {
     checkSelect();
